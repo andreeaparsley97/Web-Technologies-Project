@@ -1,0 +1,273 @@
+@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+
+.section {
+    display: block;
+    background-color: #d4e3d7;
+}
+
+.content {
+    line-height: 1.8;
+    background-color: #d4e3d7;
+}
+
+.top-border {
+    margin: auto;
+    max-width: 1044px;
+    height: 10px;
+    border-top: 1px solid #fbf7f5;
+    border-left: 1px solid #fbf7f5;
+    border-right: 1px solid #fbf7f5;
+    margin-bottom: 1%;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background: #d4e3d7;
+}
+
+.artwork {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+.main {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+}
+
+.title {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid 2px #fbf7f5;
+    border-left: solid 1px #fbf7f5;
+    border-right: solid 1px #fbf7f5;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'DrukWide-Medium';
+    padding-left: 2%;
+    padding-right: 1%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 170%;
+}
+h1 {
+    color: #fff;
+    font-family: 'DrukWide-Medium';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 3%;
+}
+h1 {
+    color: #3f4454;
+}
+h1 {
+    font-family: "DrukWide-Medium";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+/*h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-transform: none;
+}*/
+.artwork-caption h3 {
+    text-transform: uppercase;
+    background-color: #fbf7f5;
+    font-family: space mono, monospace;
+    color: #f93822;
+    font-size: 90%;
+    padding: 0 2% 0 2%;
+    margin: -8px 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+h3 {
+    color: #3f4454;
+}
+h3 {
+    font-family: "DrukWide-Medium";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.tab {
+    position: relative;
+    margin: auto;
+    max-width: 700px;
+    color: #fbf7f5;
+    font-family: DrukWide-Medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 130%;
+}
+
+.tab input {
+    display: none;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+}
+a, button, input {
+    transition: color .1s ease-in-out,background-color .1s ease-in-out;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+input {
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.tab label {
+    display: block;
+    color: #76b666;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding: 10px;
+    cursor: pointer;
+    border-top: solid 1px #fbf7f5;
+    border-left: solid 1px #fbf7f5;
+    border-right: solid 1px #fbf7f5;
+}
+
+.tab label::after {
+    content: "\003E";
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    -webkit-transition: all 0.s;
+    -o-transition: all 0.s;
+    transition: all 0.s;
+}
+
+.icon-rotates.rotate {
+    -moz-transition: rotate(180deg);
+    -webkit-transition: rotate(180deg);
+    transition: rotate(180deg);
+  }
+  
+  
+.dropdown.open .icon-rotates {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+.tab input:checked ~ .tab-content {
+    max-height: 100vh;
+}
+.tab-content {
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+    max-height: 0;
+    border-top: solid 1px #fbf7f5;
+    border-left: solid 1px #fbf7f5;
+    border-right: solid 1px #fbf7f5;
+    border-bottom: solid 1px #fbf7f5;
+}
+
+.bandcamp {
+    border: 0; 
+    width: 100%; 
+    height: 120px
+}
+
+.bottom-border {
+    margin: auto;
+    max-width: 1044px;
+    height: 10px;
+    border-bottom: 1px solid #fbf7f5;
+    border-left: 1px solid #fbf7f5;
+    border-right: 1px solid #fbf7f5;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+div {
+    display: block;
+}

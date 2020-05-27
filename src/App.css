@@ -1,5 +1,41 @@
+@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+
+:root{
+  font-size: 60px;
+  font-family: sans-serif;
+  --text-primary: #76b666;
+  --text-secondary: #fde461;
+  --bg: ##d4e3d7;
+  --bg-accent: #b8d1b8;
+  --nav-size: 60px;
+  --border: 1px solid ##d4e3d7;
+  --border-radius: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.margins {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+.leftbox {
+  width: 30px;
+  margin: 0;
+}
+
+#body_content {
+  padding-bottom: 147vh;
+}
+.navbar {
+  top: 0;
+}
+
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -7,14 +43,21 @@
   pointer-events: none;
 }
 
+.Label-Logo {
+  height: 100%;
+  width: 70%;
+  position: flex;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d4e3d7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +68,93 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #8f8f8f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #d4e3d7;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 6px;
+  color: black;
+  font-family: 'DrukWide-Medium';
+  text-decoration: none;
+  font-size: 27px;
+  width: 23.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  margin: auto;
+  max-width: 1044px;
+  height: 10px;
+  border-top: 1px solid #fbf7f5;
+  border-left: 1px solid #fbf7f5;
+  border-right: 1px solid #fbf7f5;
+  margin-bottom: 1%;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  color: #76b666;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #d4e3d7;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 750px) {
+  .navbar a {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;  /*If you want the text to be left-aligned on small screens*/ 
   }
 }
+
+#cf img {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; 
+  animation-duration: 10s;
+  animation-direction: alternate;
+  position:absolute;
+  left: 0;
+  width: 100%;
+}
+
+#cf img:nth-of-type(1) {
+  animation-delay: 8s;
+}
+
+#cf img:nth-of-type(2) {
+  animation-delay: 5s;
+}
+
+#cf img:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+@keyframes cf3FadeInOut {
+  /* distributing times evenly */
+  0% {
+      opacity: 1;
+  }
+  25% {
+      opacity: 0;
+  }
+  75% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
