@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './footer.css';
+import Logo from './htoothLogo.svg';
 
 function Footer() {
     return (
@@ -8,8 +9,8 @@ function Footer() {
             <div className="wrapper">
             <div className="footer-border"></div>
             <div className="footer-masthead">
-                <p></p>
-                <p></p>
+                <img src={Logo} alt="none"></img>
+                <p>Copyright Hodge 2020</p>
             </div>
             <div className="footer-nav">
                 <a href="#">Info</a>

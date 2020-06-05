@@ -1,10 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+
 div {
     display: block;
 }
 
-.footer-border {
+/*.footer-border {
     border-top: 1px solid #d4e3d7;
-}
+}*/
 
 .wrapper {
     background-color: #d4e3d7;
@@ -19,7 +21,7 @@ div {
     align-items: left;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: #d4e3d7;
+    color: black;
     clear: both;
   }
 
@@ -38,18 +40,23 @@ div {
 
 .footer-masthead {
     display: flex;
-    flex-direction: column;
-    padding-right: 80%;
+    padding-right: 10%;
+}
+
+.footer-masthead img {
+    max-width: 10%;
+    align-self: center;
 }
 
 .Footer p {
     align-self: center;
-    font-size: 50%;
+    font-size: 60%;
     margin-top: 2%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 p {
     font-family: 'Space Mono';
-    color: #fbf7f5;
+    color: black;
     line-height: 1.6;
     font-size: 60%;
 }
@@ -66,7 +73,12 @@ p {
     flex-wrap: wrap;
     text-decoration: none;
     font-family: 'Space Mono';
-    color: #fbf7f5;
+    color: black;
     font-size: 60%;
     line-height: 2;
+}
+
+a:hover webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
 }

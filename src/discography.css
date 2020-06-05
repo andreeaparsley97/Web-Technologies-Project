@@ -12,8 +12,9 @@
 
 .top-border {
     margin: auto;
-    max-width: 1044px;
-    height: 10px;
+    width: 62vw;
+    min-height: 10px;
+    height: auto;
     border-top: 1px solid #fbf7f5;
     border-left: 1px solid #fbf7f5;
     border-right: 1px solid #fbf7f5;
@@ -37,58 +38,49 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-right: 7px;
+    margin-right: 2%;
+    margin-left: 5%;
+    max-width: 40%;
+    height: auto;
 }
 
 .main {
     -ms-flex-preferred-size: 45%;
     flex-basis: 45%;
+    width: 50%;
+    height: auto;
 }
 
 .title {
     margin: 0px;
     padding: 0px;
-    border-bottom: solid 2px #fbf7f5;
+    /*border-bottom: solid 1px #fbf7f5;
     border-left: solid 1px #fbf7f5;
-    border-right: solid 1px #fbf7f5;
+    border-right: solid 1px #fbf7f5;*/
+    max-width: 70%;
+    height: auto;
 }
 
 h1 {
     letter-spacing: 2px;
-}
-
-h1 {
     color: #fff;
     font-family: 'DrukWide-Medium';
     padding-left: 2%;
     padding-right: 1%;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 170%;
-}
-h1 {
     color: #fff;
     font-family: 'DrukWide-Medium';
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 3%;
-}
-h1 {
     color: #3f4454;
-}
-h1 {
     font-family: "DrukWide-Medium";
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 15px;
 }
-/*h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    line-height: 1.2em;
-    font-weight: 300;
-    text-transform: none;
-}*/
+
 .artwork-caption h3 {
     text-transform: uppercase;
     background-color: #fbf7f5;
@@ -105,6 +97,7 @@ h3 {
     color: #3f4454;
 }
 h3 {
+    margin-left: 0%;
     font-family: "DrukWide-Medium";
     font-weight: 600;
     text-transform: uppercase;
@@ -127,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .tab {
     position: relative;
-    margin: auto;
-    max-width: 700px;
+    max-width: 70%;
+    height: auto;
     color: #fbf7f5;
     font-family: DrukWide-Medium;
     text-transform: uppercase;
@@ -259,15 +252,31 @@ input {
 
 .bottom-border {
     margin: auto;
-    max-width: 1044px;
-    height: 10px;
+    width: 62%;
+    min-height: 10px;
+    height: auto;
     border-bottom: 1px solid #fbf7f5;
     border-left: 1px solid #fbf7f5;
     border-right: 1px solid #fbf7f5;
     margin-top: 1%;
     margin-bottom: 1%;
 }
+.bottom-border-final {
+    margin: auto;
+    width: 62%;
+    min-height: 10px;
+    height: auto;
+    border-bottom: 1px solid #fbf7f5;
+    border-left: 1px solid #fbf7f5;
+    border-right: 1px solid #fbf7f5;
+    margin-top: 1%;
+}
 
 div {
     display: block;
+}
+
+#img {
+    max-width: 90%;
+    height: auto;
 }
