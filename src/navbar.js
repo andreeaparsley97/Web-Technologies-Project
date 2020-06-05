@@ -43,4 +43,17 @@ class NavbarItem extends React.Component {
     }
 }
 
+// class Navbar extends React.Component{
+//   render() {
+//       return (
+//       <div class="navbar">
+//         <a href="">Home</a>
+//         <a href="./discography">Discography</a>
+//         <a href="">Gardening</a>
+//         <a href="">Contact</a>
+//       </div>
+//       );
+//   }
+// }
+
 export default Navbar;

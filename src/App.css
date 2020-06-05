@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+=======
+/*@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);*/
+>>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
 @import url(//db.onlinewebfonts.com/c/3e8167877ddfd17061c43746db21f8ed?family=Evernight);
 /*@import url(//db.onlinewebfonts.com/c/d7b1b1488e2b196852b4ce2be77fd807?family=Sketchetik);*/
 
@@ -82,17 +86,29 @@ ul {
 }
 
 .navbar {
+<<<<<<< HEAD
   margin-left: 1%; /*this works for the whole bar */
+=======
+  margin-left: 45%; /*this works for the whole bar */
+>>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
   height: 0px;
 }
 
 .c-list {
+<<<<<<< HEAD
   margin-left: 1%;/*this too needs to be kept*/
   height: 250px;
   width: 250px;
   transform: rotate(90deg);
   background: #d4e3d7;
   flex-direction: column;
+=======
+  margin-left: 30%;/*this too needs to be kep*/
+  height: 200px;
+  width: 200px;
+  transform: rotate(90deg);
+  background: #d4e3d7;
+>>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
 }
 
 .c-list__item {
@@ -159,6 +175,9 @@ ul {
   line-height: 5;
   transition: color 1s;
 }
+.c-list__item--3:hover {
+   transform:translate(10px,10px);
+ }
 
 .c-list__link--1 {
   top: 37%;
