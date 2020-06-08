@@ -1,5 +1,6 @@
 
 .navbar {
+    margin-top: 7%;
     margin-left: 1%; /*this works for the whole bar */
     height: 0px;
     position: fixed;

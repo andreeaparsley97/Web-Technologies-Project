@@ -10,8 +10,9 @@ import SIB from "./shadowsInBlue.jpg";
 function App() {
 
   return (
-    <div className="App">
-     <Navbar className="navbar"/>
+    <div>
+     <Navbar/>
+     <div className="App">
       <body className="App-header" id="body_content">
         <a href="https://hodgebristol.bandcamp.com/album/shadows-in-blue">
           <img src={SIB} className="labelogo" alt="none"/>
@@ -20,6 +21,7 @@ function App() {
         <p></p>
       </body>
       <Footer />
+      </div>
     </div>
   );
 }
