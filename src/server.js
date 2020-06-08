@@ -2,6 +2,11 @@ const http = require('http') // To use the HTTP interfaces in Node.js
 const fs = require('fs') // For interacting with the file system
 const path = require('path') // For working with file and directory paths
 const url = require('url') // For URL resolution and parsing
+import React from 'react';
+import Discography from './Discography';
+import Home from './App';
+import Contact from './Contact';
+import Sample from './Samples';
 
 // To look up MIME types
 // Full list of extensions can be found at
@@ -28,7 +33,7 @@ const server = http.createServer()
 server.on('request', (req, res) => {
   // Create a new URL object with URL constructor
   // Documentation: https://nodejs.org/docs/latest-v10.x/api/url.html#url_constructor_new_url_input_base
-  const parsedUrl = new URL(req.url, 'https://node-http.glitch.me/')
+  const parsedUrl = new URL(req.url, 'https://hodgemakesmusic.com/')
   
   // Get path portion of the URL
   // Documentation: https://nodejs.org/docs/latest-v10.x/api/url.html#url_url_pathname
@@ -49,10 +54,10 @@ server.on('request', (req, res) => {
   // If the request is for the root directory, return index.html
   // Otherwise, append '.html' to any other request without an extension
   if (pathName === '/') { 
-    ext = '.html' 
-    pathName = '/index.html'
+    ext = '.js' 
+    pathName = '/index.js'
   } else if (!ext) { 
-    ext = '.html' 
+    ext = '.js' 
     pathName += ext
   }
   

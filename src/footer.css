@@ -9,12 +9,12 @@ div {
 }*/
 
 .wrapper {
-    background-color: #d4e3d7;
+    background-color: #dee9dc;
     border-color: #d4e3d7;
 }
 
 .Footer {
-    background-color: #d4e3d7;
+    background-color: #dee9dc;
     min-height: 15vh;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ div {
   }
 
   .Footer {
-    background-color: #d4e3d7;
+    background-color: #dee9dc;
     border-color: #d4e3d7;
     margin: auto;
     display: flex;
@@ -39,6 +39,7 @@ div {
 }
 
 .footer-masthead {
+    background-color: #dee9dc;
     display: flex;
     padding-right: 10%;
 }
@@ -62,6 +63,7 @@ p {
 }
 
 .footer-nav {
+    background-color: #dee9dc;
     display: flex;
     flex-basis: 1%;
     flex-direction: column;

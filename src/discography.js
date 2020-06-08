@@ -20,15 +20,19 @@ import Moon from "./bmoon.jpeg";
 import Soba from "./sobaa.jpeg";
 import X from "./x.jpeg";
 import Could from "./couldStop.jpeg";
+import Footer from "./Footer";
 
 function Discography () {
     return (
+        <div>
+            <Navbar/>
         <div className="section">
             <div id="page" className="content">
+            <h1>Discography</h1>
             <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={bells}/>
+                        <img id="img" alt="" src={bells}/>
                         <br></br>
                         <div className="caption"><h3>MAY 2013</h3></div>
                     </section>
@@ -41,7 +45,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1396993224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://punchdrunkmusic.com/album/bells-system-mix-dream-sequence">Bells (System mix / Dream Sequence) by Pev &amp; Hodge</a></iframe>
+                            <iframe title="1" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1396993224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://punchdrunkmusic.com/album/bells-system-mix-dream-sequence">Bells (System mix / Dream Sequence) by Pev &amp; Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -50,7 +54,7 @@ function Discography () {
             <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={resolve}/>
+                        <img id="img" alt="" src={resolve}/>
                         <br></br>
                         <div className="caption"><h3>NOV 2013</h3></div>
                     </section>
@@ -63,7 +67,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3428843583/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/resolve-prototype-fear">Resolve / Prototype Fear by Hodge</a></iframe>
+                            <iframe title="2" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3428843583/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/resolve-prototype-fear">Resolve / Prototype Fear by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -72,7 +76,7 @@ function Discography () {
             <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={renegades}/>
+                        <img id="img" alt="" src={renegades}/>
                         <br></br>
                         <div className="caption"><h3>APRIL 2014</h3></div>
                     </section>
@@ -85,7 +89,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1103287883/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/amor-fati-renegades">Amor Fati / Renegades by Hodge</a></iframe>
+                            <iframe title="3" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1103287883/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/amor-fati-renegades">Amor Fati / Renegades by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -94,7 +98,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={hotline}/>
+                        <img id="img" alt="" src={hotline}/>
                         <br></br>
                         <div className="caption"><h3>OCT 2014</h3></div>
                     </section>
@@ -107,7 +111,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                                <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3497402750/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/hodge-mind-games-flashback">Hodge - Mind Games / Flashback by Hodge</a></iframe>
+                                <iframe title="4" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3497402750/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/hodge-mind-games-flashback">Hodge - Mind Games / Flashback by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -116,7 +120,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={X}/>
+                        <img id="img" alt="" src={X}/>
                         <br></br>
                         <div className="caption"><h3>FEB 2015</h3></div>
                     </section>
@@ -129,7 +133,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                                <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=251550991/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wisdomteethuk.bandcamp.com/album/splits-001-4">Splits: 001-4 by Wisdom Teeth</a></iframe>
+                                <iframe title="5" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=251550991/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wisdomteethuk.bandcamp.com/album/splits-001-4">Splits: 001-4 by Wisdom Teeth</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -138,7 +142,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={Moon}/>
+                        <img id="img" alt="" src={Moon}/>
                         <br></br>
                         <div className="caption"><h3>FEB 2015</h3></div>
                     </section>
@@ -151,7 +155,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                                <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3600403462/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hemlockrecordings.bandcamp.com/album/hek025-hodge-blood-moon">HEK025 - Hodge - Blood Moon by Hodge</a></iframe>
+                                <iframe title="6" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3600403462/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hemlockrecordings.bandcamp.com/album/hek025-hodge-blood-moon">HEK025 - Hodge - Blood Moon by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -160,7 +164,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={Versions}/>
+                        <img id="img" alt="" src={Versions}/>
                         <br></br>
                         <div className="caption"><h3>MAY 2015</h3></div>
                     </section>
@@ -173,7 +177,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1220647679/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://livitysound.bandcamp.com/album/21-versions-what-your-heart-knows">21 Versions / What Your Heart Knows by Pev &amp; Hodge</a></iframe>
+                            <iframe title="7" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1220647679/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://livitysound.bandcamp.com/album/21-versions-what-your-heart-knows">21 Versions / What Your Heart Knows by Pev &amp; Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -182,7 +186,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={amorfati}/>
+                        <img id="img" alt="" src={amorfati}/>
                         <br></br>
                         <div className="caption"><h3>OCT 2015</h3></div>
                     </section>
@@ -195,7 +199,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2392731533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/amor-fati-peverelist-remix-tilikum-hodge-remix">Amor Fati (Peverelist remix) / Tilikum (Hodge remix) by Hodge</a></iframe>
+                            <iframe title="8" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2392731533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/amor-fati-peverelist-remix-tilikum-hodge-remix">Amor Fati (Peverelist remix) / Tilikum (Hodge remix) by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -204,7 +208,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={SA}/>
+                        <img id="img" alt="" src={SA}/>
                         <br></br>
                         <div className="caption"><h3>SEPT 2016</h3></div>
                     </section>
@@ -217,7 +221,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2436055609/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://livitysound.bandcamp.com/album/second-freeze-simple-as">Second Freeze / Simple As by Randomer &amp; Hodge</a></iframe>
+                            <iframe title="9" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2436055609/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://livitysound.bandcamp.com/album/second-freeze-simple-as">Second Freeze / Simple As by Randomer &amp; Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -226,7 +230,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={BodyDrive}/>
+                        <img id="img" alt="" src={BodyDrive}/>
                         <br></br>
                         <div className="caption"><h3>NOV 2016</h3></div>
                     </section>
@@ -239,7 +243,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2043360385/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/body-drive-ep">Body Drive EP by Hodge</a></iframe>
+                            <iframe title="10" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2043360385/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/body-drive-ep">Body Drive EP by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -248,7 +252,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={AML}/>
+                        <img id="img" alt="" src={AML}/>
                         <br></br>
                         <div className="caption"><h3>MAY 2017</h3></div>
                     </section>
@@ -261,7 +265,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3227478207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://pedermannerfeltproduktion.bandcamp.com/album/all-my-love">All My Love by Hodge, Peder Mannerfelt</a></iframe>
+                            <iframe title="11" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3227478207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://pedermannerfeltproduktion.bandcamp.com/album/all-my-love">All My Love by Hodge, Peder Mannerfelt</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -270,7 +274,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={NoSingleThing}/>
+                        <img id="img" alt="" src={NoSingleThing}/>
                         <br></br>
                         <div className="caption"><h3>JUNE 2017</h3></div>
                     </section>
@@ -283,7 +287,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2970047969/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/no-single-thing-ep">No Single Thing EP by Hodge</a></iframe>
+                            <iframe title="12" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2970047969/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/no-single-thing-ep">No Single Thing EP by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -292,7 +296,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={SFTF}/>
+                        <img id="img" alt="" src={SFTF}/>
                         <br></br>
                         <div className="caption"><h3>SEPT 2017</h3></div>
                     </section>
@@ -305,7 +309,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp"  src="https://bandcamp.com/EmbeddedPlayer/album=390341876/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/hek030-swing-for-the-fences">HEK030 - Swing for the Fences by Hodge</a></iframe>
+                            <iframe title="13" className="bandcamp"  src="https://bandcamp.com/EmbeddedPlayer/album=390341876/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/hek030-swing-for-the-fences">HEK030 - Swing for the Fences by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -314,7 +318,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={Could}/>
+                        <img id="img" alt="" src={Could}/>
                         <br></br>
                         <div className="caption"><h3>MARCH 2018</h3></div>
                     </section>
@@ -327,7 +331,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=4191208411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://clonebasementseries.bandcamp.com/album/if-i-could-stop">If I Could Stop by Hodge &amp; Randomer</a></iframe>
+                            <iframe title="14" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=4191208411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://clonebasementseries.bandcamp.com/album/if-i-could-stop">If I Could Stop by Hodge &amp; Randomer</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -336,7 +340,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={LightWithin}/>
+                        <img id="img" alt="" src={LightWithin}/>
                         <br></br>
                         <div className="caption"><h3>NOV 2018</h3></div>
                     </section>
@@ -349,7 +353,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1625142489/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://laurelhalo.bandcamp.com/album/tru-opal-the-light-within-you">Tru / Opal / The Light Within You by Laurel Halo &amp; Hodge</a></iframe>
+                            <iframe title="15" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1625142489/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://laurelhalo.bandcamp.com/album/tru-opal-the-light-within-you">Tru / Opal / The Light Within You by Laurel Halo &amp; Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -358,7 +362,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={Soba}/>
+                        <img id="img" alt="" src={Soba}/>
                         <br></br>
                         <div className="caption"><h3>FEB 2019</h3></div>
                     </section>
@@ -371,7 +375,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3472935384/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://peachdiscs.bandcamp.com/album/peach006-soba-dance">PEACH006 - Soba Dance by Shanti Celeste &amp; Hodge</a></iframe>
+                            <iframe title="16" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=3472935384/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://peachdiscs.bandcamp.com/album/peach006-soba-dance">PEACH006 - Soba Dance by Shanti Celeste &amp; Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -380,7 +384,7 @@ function Discography () {
                 <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
-                        <img id="img" src={SIB}/>
+                        <img id="img" alt="" src={SIB}/>
                         <br></br>
                         <div className="caption"><h3>APR 2020</h3></div>
                     </section>
@@ -393,7 +397,7 @@ function Discography () {
                                 Listen / Buy Digital
                             </label>
                             <div className="tab-content">
-                            <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2201910089/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/shadows-in-blue">Shadows In Blue by Hodge</a></iframe>
+                            <iframe title="0" className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2201910089/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hodgebristol.bandcamp.com/album/shadows-in-blue">Shadows In Blue by Hodge</a></iframe>
                             </div>
                         </div>
                     </section>
@@ -401,9 +405,9 @@ function Discography () {
                 <div className="bottom-border-final"></div>
             </div>
         </div>
+        <Footer />
+        </div>
     )
 }
-
-ReactDOM.render(<Discography />, document.getElementById('root'));
 
 export default Discography;

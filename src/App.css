@@ -1,20 +1,19 @@
-<<<<<<< HEAD
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
-=======
-/*@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);*/
->>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
 @import url(//db.onlinewebfonts.com/c/3e8167877ddfd17061c43746db21f8ed?family=Evernight);
 /*@import url(//db.onlinewebfonts.com/c/d7b1b1488e2b196852b4ce2be77fd807?family=Sketchetik);*/
 
+.navbar {
+  z-index: 1000;
+}
 :root{
   font-size: 60px;
   font-family: sans-serif;
   --text-primary: #76b666;
   --text-secondary: #fde461;
-  --bg: ##d4e3d7;
+  --bg: #dee9dc;
   --bg-accent: #b8d1b8;
   --nav-size: 60px;
-  --border: 1px solid ##d4e3d7;
+  --border: 1px solid #d4e3d7;
   --border-radius: 8px;
   margin: 0;
   padding: 0;
@@ -31,10 +30,6 @@
   margin: 0;
 }
 
-#body_content {
-  padding-bottom: 147vh;
-}
-
 .App {
   text-align: center;
   margin: 0;
@@ -47,12 +42,13 @@
 }
 
 .labelogo {
-  margin-left: 15%;
   min-height: 50%;
-  width: 80%;
+  width: 70%;
   position: flex;
   pointer-events: none;
   padding-bottom: 10%;
+  margin-left: 10%;
+  z-index: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -62,7 +58,7 @@
 }
 
 .App-header {
-  background-color: #d4e3d7;
+  background-color: #dee9dc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -83,141 +79,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-}
-
-.navbar {
-<<<<<<< HEAD
-  margin-left: 1%; /*this works for the whole bar */
-=======
-  margin-left: 45%; /*this works for the whole bar */
->>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
-  height: 0px;
-}
-
-.c-list {
-<<<<<<< HEAD
-  margin-left: 1%;/*this too needs to be kept*/
-  height: 250px;
-  width: 250px;
-  transform: rotate(90deg);
-  background: #d4e3d7;
-  flex-direction: column;
-=======
-  margin-left: 30%;/*this too needs to be kep*/
-  height: 200px;
-  width: 200px;
-  transform: rotate(90deg);
-  background: #d4e3d7;
->>>>>>> 14da6e91842fca03a9f3b737e0aa102c139fdb06
-}
-
-.c-list__item {
-  box-shadow: 10px 10px 30px rgba(118, 182, 102, 0.4);
-  background: #d4e3d7;
-  border: 1px solid #76b666;
-  height: 200px;
-  line-height: 10px;
-  width: 200px;
-  margin: 6px;
-  position: relative;
-  transition: color 1s, box-shadow 1s;
-}
-.c-list__item:hover {
-   box-shadow: 4px 2px 30px rgba(0, 0, 0, .2);
-   cursor: pointer;
-   color: #303030;
-}
-
-.c-list__item--1 {
-  transition: transform 500ms;
-  background-image: url(mini4.png);
-  background-size: cover;
-}
-
-.c-list__item--1:hover {
-   transform:translate(0px,-50px);
- }
-
-.c-list__item--2 {
-  transition: transform 500ms;
-  background-image: url(mini2.png);
-  background-size: cover;
-}
-.c-list__item--2:hover {
-   transform:translate(-10px,-10px);
- }
-
-.c-list__item--3 {
-  transition: transform 500ms;
-  background-image: url(mini1.png);
-  background-size: cover;
-}
-.c-list__item--3:hover {
-   transform:translate(10px,-10px);
- }
-
-.c-list__item--4 {
-  transition: transform 500ms;
-  background-image: url(mini3.png);
-  background-size: cover;
-}
-.c-list__item--4:hover {
-   transform:translate(0px,-50px);
- }
-
-.c-list__link {
-  color: #f7f7f7;
-  transform: rotate(-90deg);
-  position: absolute;
-  width: 10%;
-  padding: 0;
-  margin: 0;
-  line-height: 5;
-  transition: color 1s;
-}
-.c-list__item--3:hover {
-   transform:translate(10px,10px);
- }
-
-.c-list__link--1 {
-  top: 37%;
-  padding-left: 25%;
-  padding-top: 25%;
-  text-align: center;
-  font-size: 27px;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  text-decoration: none;
-  color: rgba(2, 42, 2, 0.68);
-}
-
-.c-list__link--2 {
-  top: 40%;
-  padding-top: 30%;
-  padding-left: 34%;
-  text-align: center;
-  font-size: 27px;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  text-decoration: none;
-  color: rgba(2, 42, 2, 0.68);
-}
-
-.c-list__link--3 {
-  padding-bottom: 65%;
-  text-align: center;
-  font-size: 27px;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  text-decoration: none;
-  color: rgba(2, 42, 2, 0.68);
-}
-
-.c-list__link--4 {
-  top: 25%;
-  padding-left: 20%;
-  text-align: center;
-  font-size: 27px;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  text-decoration: none;
-  color: rgba(2, 42, 2, 0.68);
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */

@@ -1,8 +1,10 @@
 import React from 'react';
-import App from './App';
+import Home from './App';
 import Contact from './Contact';
 import Discography from './Discography';
-import { Link, BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Samples from './Samples';
+import { Link, Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+import './navbar.css';
 
 class Navbar extends React.Component {
     render(){
@@ -34,26 +36,9 @@ class NavbarItem extends React.Component {
         return(
             <li className={`c-list__item c-list__item--${this.props.page.num}`}>
                 <Link to={"/" + this.props.page.name} className={`c-list__link c-list__link--${this.props.page.num}`}>{this.props.page.name}</Link>
-                <Switch>
-                 <Route exact path={"/"+this.props.page.name}
-                  component={this.props.page.name} />
-                </Switch>
             </li>
         )
     }
 }
-
-// class Navbar extends React.Component{
-//   render() {
-//       return (
-//       <div class="navbar">
-//         <a href="">Home</a>
-//         <a href="./discography">Discography</a>
-//         <a href="">Gardening</a>
-//         <a href="">Contact</a>
-//       </div>
-//       );
-//   }
-// }
 
 export default Navbar;
