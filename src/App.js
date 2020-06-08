@@ -5,8 +5,6 @@ import pressShot4 from './Pressshots2020/HNKC_200211_HODGE_PressShots-4531_web.j
 import pressShot6 from './Pressshots2020/HNKC_200211_HODGE_PressShots-4577_web.jpg';
 import Footer from "./Footer";
 import Navbar from "./navbar";
-import Discography from "./Discography";
-import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SIB from "./shadowsInBlue.jpg";
 
 function App() {
@@ -16,7 +14,7 @@ function App() {
      <Navbar className="navbar"/>
       <body className="App-header" id="body_content">
         <a href="https://hodgebristol.bandcamp.com/album/shadows-in-blue">
-          <img src = {SIB} className="labelogo" alt="none"/>
+          <img src={SIB} className="labelogo" alt="none"/>
         </a>
         <p></p>
         <p></p>

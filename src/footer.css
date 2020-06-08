@@ -36,6 +36,8 @@ div {
     justify-content: space-between;
     padding: 0 4% 2% 4%;
     width: 92%;
+    color: black;
+    clear: both;
 }
 
 .footer-masthead {

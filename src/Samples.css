@@ -1,0 +1,52 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+  }
+
+  html::before {
+    content: ' ';
+    display: block;
+    background-image: url(Pressshots2020/HNKC_200211_HODGE_PressShots-4577_web.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10; /* This is pretty important.*/
+    }
+
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    padding-left: 16%;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    padding-left: 40%;
+    color: #fde461;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    padding-left: 100%;
+    padding-top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fde461;
+    font-size: 40pt;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
