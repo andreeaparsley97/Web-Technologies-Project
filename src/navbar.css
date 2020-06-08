@@ -1,6 +1,6 @@
 
 .navbar {
-    margin-top: 7%;
+    margin-top: 0%;
     margin-left: 1%; /*this works for the whole bar */
     height: 0px;
     position: fixed;
@@ -25,6 +25,7 @@
     position: relative;
     transition: color 1s, box-shadow 1s;
     z-index: 1000;
+    border: 1px solid;
   }
   .c-list__item:hover {
      cursor: pointer;
@@ -33,7 +34,7 @@
   
   .c-list__item--1 {
     transition: transform 500ms;
-    background-image: url(mini4.png);
+    background-image: url(Mini5.png);
     background-size: cover;
   }
   
@@ -43,7 +44,7 @@
   
   .c-list__item--2 {
     transition: transform 500ms;
-    background-image: url(mini2.png);
+    background-image: url(Mini7.png);
     background-size: cover;
   }
   .c-list__item--2:hover {
@@ -52,7 +53,7 @@
   
   .c-list__item--3 {
     transition: transform 500ms;
-    background-image: url(mini1.png);
+    background-image: url(Mini8.png);
     background-size: cover;
   }
   .c-list__item--3:hover {
@@ -61,7 +62,7 @@
   
   .c-list__item--4 {
     transition: transform 500ms;
-    background-image: url(mini3.png);
+    background-image: url(Mini6.png);
     background-size: cover;
   }
   .c-list__item--4:hover {

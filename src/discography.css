@@ -1,5 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
 
+
 .section {
     padding-top: 3%;
     display: block;
@@ -17,6 +18,10 @@
 .content {
     line-height: 1.8;
     background: #dee9dc;
+}
+
+h3 {
+    font-size: 40pt;
 }
 
 .top-border {

@@ -28,7 +28,7 @@ function Discography () {
             <Navbar/>
         <div className="section">
             <div id="page" className="content">
-            <h1>Discography</h1>
+            <h3>Discography</h3>
             <div className="top-border"></div>
                 <section className="wrapper">
                     <section className="artwork">
