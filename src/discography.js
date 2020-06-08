@@ -410,4 +410,8 @@ function Discography () {
     )
 }
 
+class DiscographyItem extends React.Component {
+    
+}
+
 export default Discography;

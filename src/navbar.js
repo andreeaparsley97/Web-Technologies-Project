@@ -39,6 +39,6 @@ class NavbarItem extends React.Component {
             </li>
         )
     }
-}
+};
 
 export default Navbar;
