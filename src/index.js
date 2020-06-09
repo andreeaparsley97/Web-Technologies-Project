@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Discography from './Discography';
 import Contact from './Contact';
 import Samples from './Samples';
-
+import Login from './loginform';
 ReactDOM.render(
     <Router>
       <div>
@@ -24,6 +24,9 @@ ReactDOM.render(
         </Route>
         <Route path="/Contact">
             <Contact />
+        </Route>
+        <Route path="/Login">
+          <Login />
         </Route>
       </div>
     </Router>,  document.getElementById('root'));

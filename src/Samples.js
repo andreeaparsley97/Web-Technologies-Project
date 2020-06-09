@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './navbar';
 import './Samples.css';
-import PS3 from './Pressshots2020/HNKC_200211_HODGE_PressShots-4571_web.jpg';
-import Footer from './Footer';
+import DateCountdown from 'react-date-countdown-timer'
+import vinepic from './vinepic.jpg'
+
 class Samples extends React.Component {
     render() {
         return (
@@ -13,12 +14,10 @@ class Samples extends React.Component {
                         <p>Logo</p>
                     </div>
                     <div className="middle">
-                        <h1>COMING SOON</h1>
-                        <hr></hr>
-                        <p>35 days</p>
+                        <h4>COMING SOON</h4>
+                        <DateCountdown id="counter" dateTo='June 29, 2020 00:00:00 GMT'/>
                     </div>
                     <div className="bottomleft">
-                         <h1>Some text</h1>
                     </div>
                 </body>
             </div>

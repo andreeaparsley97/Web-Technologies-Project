@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Navbar from "./navbar";
 import './App.css';
 import './discography.css';
@@ -410,8 +409,18 @@ function Discography () {
     )
 }
 
-class DiscographyItem extends React.Component {
-    
-}
+/*(function (document) {
+    let div = document.getElementById('tab');
+    let icon = document.getElementById('label');
+    let open = false;
+
+    div.addEventListener('click', function() {
+        if(open) {
+            icon.className = 'x';
+        } else {
+            icon.className = 'y';
+        }
+    });
+})(document);*/
 
 export default Discography;
