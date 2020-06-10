@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './App';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Discography from './Discography';
+import Discography from './discography';
 import Contact from './Contact';
 import Samples from './Samples';
 import Login from './loginform';
