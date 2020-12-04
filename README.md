@@ -3,6 +3,8 @@
 The website was designed to a relatively restricted brief – we were commissioned to make a site for a a music producer and DJ. The website release was meant to coincide with the release of the artist' s debut album, and so the site’s design was derived from the album’s artwork. The plan for deployment of this site (it was going to be done aside from the record label’s website) meant we were asked and encouraged to dedicate most of our time to the frontend. It was primarily
 made using Vanilla React with most of the site’s HTML generated from React JSX components with CSS styling.
 
+![Website' s Main Page](https://github.com/andreeaparsley97/Web-Technologies-Project-/tree/andreeaparsley97-patch-1/src/Main_Page.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
